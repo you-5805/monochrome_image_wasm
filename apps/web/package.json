@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo-with-wasm/web",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "monochrome-image": "link:../../packages/monochrome-image/pkg"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.35",
+    "typescript": "5.0.4"
+  }
+}
